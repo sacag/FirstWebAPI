@@ -8,7 +8,7 @@ namespace FirstWebApi.Models
 {
     public class Product
     {
-        //Model class
+        //Model class for a product
         public int Id { get; set; }
         public string Name { get; set; }
         public string Category { get; set; }
