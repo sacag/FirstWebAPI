@@ -10,6 +10,7 @@ namespace FirstWebApi.Controllers
 {
     public class ProductsController : ApiController
     {
+        //add products
         Product[] products = new Product[] 
         { 
             new Product { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1.99M }, 
